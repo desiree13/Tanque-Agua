@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XPD:PROJECT xmlns:XPD="http://www.staruml.com" version="1">
+<XPD:HEADER>
+<XPD:SUBUNITS>
+</XPD:SUBUNITS>
+<XPD:PROFILES>
+<XPD:PROFILE>Java</XPD:PROFILE>
+</XPD:PROFILES>
+</XPD:HEADER>
+<XPD:BODY>
+<XPD:OBJ name="DocumentElement" type="UMLProject" guid="wOiPhe3fE0W9W7yP+3kmPgAA">
+<XPD:ATTR name="Title" type="string">TanqueAgua</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLModel" guid="p2IlMZ9nQEi2t9tJWIi6rwAA">
+<XPD:ATTR name="Name" type="string">TanqueAgua</XPD:ATTR>
+<XPD:REF name="Namespace">wOiPhe3fE0W9W7yP+3kmPgAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLClassDiagram" guid="4xOvb/oEqUmcovxFQyVbpQAA">
+<XPD:ATTR name="Name" type="string">DC_TanqueAgua</XPD:ATTR>
+<XPD:REF name="DiagramOwner">p2IlMZ9nQEi2t9tJWIi6rwAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="rE/Wh1eHb0mFsSoSCe3RtAAA">
+<XPD:REF name="Diagram">4xOvb/oEqUmcovxFQyVbpQAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="S7Bo+GPzYUCCuEBRxYct6QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">128</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">148</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">169</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">121</XPD:ATTR>
+<XPD:REF name="Model">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="EsHNMwj06EKrSZ15Mf+PZwAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="zQUgI8zw6EaGrnLaS7CejQAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Tanque</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="b9ygbwU+x0e6kYrUXvW4vQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="OwZMubiN/0mBIVSmeqb5aQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="PdG4bY3em0er5jBhgmUn5AAA">
+<XPD:REF name="Model">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="ck/rehXwqkKfoHRXWSOYlwAA">
+<XPD:REF name="Model">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="GjJY2VaH/0C2Qs/CvQ/qVwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedElements" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="O0kv6CuMtU6WsicieBHYpQAA">
+<XPD:ATTR name="Name" type="string">Tanque</XPD:ATTR>
+<XPD:REF name="Namespace">p2IlMZ9nQEi2t9tJWIi6rwAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">S7Bo+GPzYUCCuEBRxYct6QAA</XPD:REF>
+<XPD:REF name="Views[1]">PdG4bY3em0er5jBhgmUn5AAA</XPD:REF>
+<XPD:REF name="Views[2]">ck/rehXwqkKfoHRXWSOYlwAA</XPD:REF>
+<XPD:REF name="Views[3]">GjJY2VaH/0C2Qs/CvQ/qVwAA</XPD:REF>
+<XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="u8FkffCLSk2u9bAMblvQyQAA">
+<XPD:ATTR name="Name" type="string">Tanque</XPD:ATTR>
+<XPD:REF name="Owner">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="yde6LwzFxk6so3SyU4a+8AAA">
+<XPD:ATTR name="Name" type="string">getEstado</XPD:ATTR>
+<XPD:REF name="Owner">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="OrDDndD19E276IZ2HsEIMAAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">yde6LwzFxk6so3SyU4a+8AAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[2]" type="UMLOperation" guid="3aRNRxUl80K8QrBVZQArSQAA">
+<XPD:ATTR name="Name" type="string">llenarMedio</XPD:ATTR>
+<XPD:REF name="Owner">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="zgYRGYlQAUS2ckAcYWRm8AAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">3aRNRxUl80K8QrBVZQArSQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[3]" type="UMLOperation" guid="wowi5A5qOkuvGYDNGO3SmwAA">
+<XPD:ATTR name="Name" type="string">vacirMedio</XPD:ATTR>
+<XPD:REF name="Owner">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="SGdYOeXtkUuRPDV8wHSYbwAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">wowi5A5qOkuvGYDNGO3SmwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="X1Mk5oljSUuEPMorMxBp2QAA">
+<XPD:ATTR name="Name" type="string">setEstado</XPD:ATTR>
+<XPD:REF name="Owner">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="ILWoAD6rDEyGK9ZZqwpPvQAA">
+<XPD:ATTR name="Name" type="string">estado</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">X1Mk5oljSUuEPMorMxBp2QAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="Kno63CIcXkmT9KoFMRpEZAAA">
+<XPD:ATTR name="Name" type="string">estado</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="Owner">O0kv6CuMtU6WsicieBHYpQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:BODY>
+</XPD:PROJECT>
