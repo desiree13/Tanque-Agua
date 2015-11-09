@@ -9,21 +9,32 @@ import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
+
 /**
  *
  * @author  Administrador
  */
 public class Main extends javax.swing.JFrame {
     
+    private final ControlRiego controlRiego;
+    public  String mensaje;
+    
     
      
     public Main() {
         initComponents();
-
+        
+        //Creamos el objeto
+       controlRiego= new ControlRiego(tanque.getEstado());
+       
+           
+        
        
         setSize(580, 450);
         setLocationRelativeTo(null);
     }
+    
+    
 
     /** This method is called from within the constructor to
      * initialize the form.
@@ -117,12 +128,70 @@ public class Main extends javax.swing.JFrame {
 
     private void jButtonLlenarMedioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLlenarMedioActionPerformed
 
+        
+        int sequia;
+        
+        
+        //Si sequia no es un número válido
+        if (!Convert.isValidInt(jTextFieldNivelSequia.getText())) {
+            mensaje ="Nivel de sequía no es un número válido";
+            
+        }
+        
+        // Hacemos las conversiones de datos numéricos
+        sequia = Convert.parseInt(jTextFieldNivelSequia.getText());
+        
+        // Pasamos los datos de entrada a controlRiego
+        controlRiego.setSequia(sequia);
+        
+        
+        
+        if(controlRiego.permitidoLlenar() > 0){
+           mensaje(controlRiego.getMensaje());
+           return;
+        }
+        
+       tanque.llenarMedio();
+       controlRiego.setEstado(tanque.getEstado());
+       
+        
+       
+        
+        
+        
        
         
     }//GEN-LAST:event_jButtonLlenarMedioActionPerformed
 
     private void jButtonVaciarMedioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVaciarMedioActionPerformed
        
+        int humedad;
+        
+        
+        
+        //Si humedad no es un número válido
+        if (!Convert.isValidInt(jTextFieldNivelHumedad.getText())) {
+            mensaje ="Nivel de humedad no es un número válido";
+            
+        }
+        
+        // Hacemos las conversiones de datos numéricos
+        humedad = Convert.parseInt(jTextFieldNivelHumedad.getText());
+        
+        
+        // Pasamos los datos de entrada a controlRiego
+        controlRiego.setHumedad(humedad);
+        
+        if(controlRiego.permitidoVaciar() > 0){
+           mensaje(controlRiego.getMensaje());
+           return;
+        }
+        
+        tanque.vaciarMedio();
+        
+        controlRiego.setEstado(tanque.getEstado());
+        
+         
         
     }//GEN-LAST:event_jButtonVaciarMedioActionPerformed
 
